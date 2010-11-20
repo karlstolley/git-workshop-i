@@ -18,7 +18,7 @@
 * `git commit -m "Commit message"` - Commit staged files in the index; attach message in quotation marks
 
 ### Stage and commit simultaneously (be careful)
-* `git commit -am "Commit message" - 
+* `git commit -am "Commit message"` - Commit and stage together; attach message in quotation marks
 
 * `git log` - Show verbose log of history
 * `git log --pretty=oneline` - Show one-line log of history
@@ -30,7 +30,7 @@
 ### Branches and Branching
 * `git branch` - Show all local branches; `*` marks current branch
 * `git branch <branch name>` - Create a new branch (don't type brackets)
-* `git checkout <branch name> - Switch to a different branch (don't type brackets)
+* `git checkout <branch name>` - Switch to a different branch (don't type brackets)
 
 ### Merging
 1. Checkout the branch you wish to merge onto (e.g., `git checkout master`)
