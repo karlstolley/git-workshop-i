@@ -18,7 +18,7 @@
 	</script>
 </head>
 <body>
-	<h1>Git Workshop I</h1>
+	<h1>BootCamp Workshop 3: Git</h1>
 	<p class="vcard"><a class="fn url" href="http://karlstolley.com">Karl Stolley</a>, <span class="org">Illinois Institute of Technology</span></p>
 	
 	<h2 class="lessig">What is Git?</h2>
@@ -27,9 +27,9 @@
 
 	<h2>Files</h2>
 	<ul>
-	  <li>Git likes plain text files best</li>
-	  <li>It can handle binaries (PDF, <code>.doc</code>, images), but not to its full potential</li>
-	  <li>Lesson: Prefer open-source formats based in plain text (XHTML, HTML5, XML, Markdown, etc.</li>
+	  <li>Git likes text files best</li>
+	  <li>It can handle binary files (e.g., PDFs, Word documents, images), but not to its full potential</li>
+	  <li>Lesson: Prefer open-source formats based in plain text (XHTML, HTML5, XML, Markdown, etc.)</li>
 	</ul>
 
   <h2>Locations</h2>
@@ -47,7 +47,7 @@
     <li>Lesson: One file, one location, many views</li>
   </ul>
   
-  <h2 class="lessig">The Forgotten Command Line</h2>
+  <h2 class="lessig">The Forgotten <br />Command Line</h2>
   
   <h2>The Command Line</h2>
   <ul>
@@ -58,16 +58,16 @@
   
   <h2>Got Git?</h2>
   <ul>
-    <li>Double-check; run <pre>$ git --version</pre> (You don't type the dollar sign; that indicates your terminal/command prompt)</li>
-    <li>See <a href="http://help.github.com/">http://help.github.com/ for installation instructions if you see anything but the Git version number, e.g., <pre>git version 1.7.3.2</pre></li>
+    <li>Double-check; run <pre>$ git --version</pre> (You don’t type the dollar sign; that indicates your terminal/command prompt)</li>
+    <li>See <a href="http://help.github.com/">http://help.github.com/</a> for installation instructions if you see anything but the Git version number, e.g., <pre>git version 1.7.3.2</pre></li>
   </ul>
   
   <h2>Configuring Git: It Wants Information</h2>
   <ul>
     <li>Your name</li>
     <li>Your email address</li>
-    <li>To use color, if possible</li>
-    <li>To clean up after the mess Windows makes</li>
+    <li>Whether to use color</li>
+    <li>Whether to clean up after the mess Windows makes</li>
   </ul>
   
   <h2>Configuring Git: Commands</h2>
@@ -76,8 +76,13 @@ $ git config --global user.email "your@email.com"
 $ git config --global color.ui "auto"
 $ git config --global core.autocrlf "input"</pre>
 
-  <h2>Configuring Git: Check It</h2>
-  <pre>$ git config --global --list</pre>
+  <h2>Configuring Git: Check Your Configuration</h2>
+  <pre>$ git config --global --list
+user.name=Your Name
+user.email=your@email.com
+color.ui=auto
+core.autocrlf=input
+</pre>
 
   <h2 class="lessig">Git in Your Workflow</h2>
   
@@ -90,18 +95,20 @@ $ git config --global core.autocrlf "input"</pre>
   <h2>Git in Your Workflow</h2>
   <ol>
     <li>Do stuff; File > Save</li>
-    <li>Stage related stuff to be commited</li>
+    <li>Stage related changes to be commited</li>
     <li>Make the commit (write to history)</li>
     <li>(Add more related stuff, commit...repeat...)</li>
     <li>Repeat...</li>
   </ol>
 
   <h2>Git in Your Workflow</h2>  
-  <ul>
-    <li>Often: Make/change some files; save them</li>
-    <li>Often: "Stage" related changes to the index (<code>$ git add <em>&lt;files&gt;</em></code>)
-    <li>Next: Commit the staged changes: <pre>$ git commit -m "Explanatory message"</pre>
-  </ul>
+  <ol>
+    <li>Make/change some files; save them</li>
+    <li>Stage related changes to the index <pre>$ git add <em>list of files</em></pre></li>
+    <li>Commit the staged changes: <pre>$ git commit -m "Explanatory message"</pre></li>
+  </ol>
+  
+  <h2 class="lessig">So Let’s Git to It</h2>
   
 </body>
 </html>
