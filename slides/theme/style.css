@@ -102,6 +102,14 @@ blockquote {
   font-size: 1.3em;
   margin: 50px 10%;
 }
+pre, code {
+  font-family: monospace;
+  font-size: 1em;
+  font-weight: bold;
+}
+pre { 
+  margin: 50px 2%;
+}
 cite {
   display: block;
   color: #999;
@@ -112,6 +120,10 @@ cite {
 ol, ul { margin: 50px 10%; }
 ol li {
   list-style-type: decimal;
+  margin-bottom: 1em;
+}
+ul li {
+  list-style-type: disc;
   margin-bottom: 1em;
 }
 ins { color: blue; }
